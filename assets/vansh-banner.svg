@@ -5,47 +5,48 @@
       <stop offset="0.52" stop-color="#0f172a"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <radialGradient id="cyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 70) rotate(55) scale(430 280)">
-      <stop stop-color="#22d3ee" stop-opacity="0.42"/>
+    <radialGradient id="cyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(185 90) rotate(44) scale(520 310)">
+      <stop stop-color="#22d3ee" stop-opacity="0.44"/>
       <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="violet" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 290) rotate(145) scale(430 280)">
-      <stop stop-color="#8b5cf6" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    <radialGradient id="pink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1160 270) rotate(145) scale(520 330)">
+      <stop stop-color="#a855f7" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="accent" x1="130" y1="0" x2="650" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="110" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22d3ee"/>
-      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="0.52" stop-color="#8b5cf6"/>
       <stop offset="1" stop-color="#34d399"/>
     </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
     <style>
-      @keyframes dash { to { stroke-dashoffset: -600; } }
-      @keyframes glow { 0%,100%{opacity:.45} 50%{opacity:.9} }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+      @keyframes dash { to { stroke-dashoffset: -520; } }
       .mono{font-family:JetBrains Mono,Consolas,monospace}
       .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
-      .line{stroke-dasharray:14 18; animation:dash 22s linear infinite;}
-      .glow{animation:glow 4s ease-in-out infinite;}
+      .orb{animation:float 5s ease-in-out infinite; transform-origin:center;}
+      .line{stroke-dasharray:10 16; animation:dash 20s linear infinite;}
     </style>
   </defs>
 
-  <rect width="1400" height="360" rx="30" fill="url(#bg)"/>
-  <rect width="1400" height="360" rx="30" fill="url(#cyan)"/>
-  <rect width="1400" height="360" rx="30" fill="url(#violet)"/>
+  <rect width="1400" height="360" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="34" fill="url(#cyan)"/>
+  <rect width="1400" height="360" rx="34" fill="url(#pink)"/>
 
-  <path class="line" d="M80 285 C300 170 420 265 610 145 S920 96 1110 214 1260 246 1340 170" stroke="url(#accent)" stroke-width="2.5" opacity="0.35"/>
+  <circle cx="1160" cy="118" r="86" fill="#22d3ee" opacity="0.10" filter="url(#blur)"/>
+  <circle cx="1245" cy="222" r="102" fill="#8b5cf6" opacity="0.12" filter="url(#blur)"/>
+  <path class="line" d="M86 292 C272 180 431 245 594 132 C779 4 1016 95 1286 244" stroke="url(#accent)" stroke-width="2.5" opacity="0.36"/>
 
-  <circle class="glow" cx="1175" cy="110" r="7" fill="#22d3ee"/>
-  <circle class="glow" cx="1260" cy="245" r="5" fill="#34d399" opacity="0.75"/>
-  <circle cx="1040" cy="278" r="3" fill="#a78bfa" opacity="0.7"/>
-
-  <text x="110" y="112" fill="#94a3b8" class="mono" font-size="24">TECH FOUNDER • FULL-STACK • AI SYSTEMS</text>
-  <text x="110" y="190" fill="#ffffff" class="sans" font-size="76" font-weight="850" letter-spacing="-2.6">Vansh Harit</text>
-  <rect x="110" y="216" width="520" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="110" y="272" fill="#cbd5e1" class="sans" font-size="32" font-weight="560">building Contestic and useful product systems</text>
-
-  <g transform="translate(980 128)">
-    <rect width="250" height="100" rx="22" fill="#020617" fill-opacity="0.62" stroke="#334155"/>
-    <text x="26" y="42" fill="#22d3ee" class="mono" font-size="20">build → test</text>
-    <text x="26" y="74" fill="#cbd5e1" class="mono" font-size="20">ship → learn</text>
+  <g class="orb">
+    <rect x="995" y="98" width="250" height="128" rx="26" fill="#020617" fill-opacity="0.64" stroke="#334155"/>
+    <text x="1025" y="144" fill="#22d3ee" class="mono" font-size="21">build</text>
+    <text x="1094" y="144" fill="#64748b" class="mono" font-size="21">/</text>
+    <text x="1120" y="144" fill="#a78bfa" class="mono" font-size="21">learn</text>
+    <text x="1025" y="184" fill="#cbd5e1" class="mono" font-size="21">ship useful things</text>
   </g>
+
+  <text x="108" y="105" fill="#94a3b8" class="mono" font-size="23">FOUNDER-MINDED ENGINEER</text>
+  <text x="108" y="188" fill="#ffffff" class="sans" font-size="80" font-weight="860" letter-spacing="-3.2">Vansh Harit</text>
+  <rect x="110" y="216" width="580" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="110" y="276" fill="#cbd5e1" class="sans" font-size="32" font-weight="560">products · systems · ai workflows</text>
 </svg>
