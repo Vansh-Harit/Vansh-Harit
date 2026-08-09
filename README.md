@@ -7,7 +7,6 @@
 <div align="center">
   <a href="https://vanshharit.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0B0F19?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/vansh-harit-5590512b2"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/Vansh-Harit"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </div>
 
 <br />
@@ -37,7 +36,7 @@ I like building things that are not just demos — products with auth, data mode
 
 <div align="center">
 
-![Core stack](https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,python,postgres,supabase,nodejs,git,github)
+![Core stack](https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,python,postgres,supabase,nodejs,git)
 
 </div>
 
