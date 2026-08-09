@@ -1,0 +1,65 @@
+<svg width="860" height="260" viewBox="0 0 860 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.48" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 42) scale(220 160)">
+      <stop stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .mono{font-family:JetBrains Mono,Consolas,monospace}
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .section{fill:#0b1220;stroke:#263244;stroke-width:1}
+      .label{fill:#64748b;font-size:13px;letter-spacing:1.6px;font-weight:800}
+      .title{fill:#f8fafc;font-size:30px;font-weight:850;letter-spacing:-0.8px}
+      .chip{fill:#111827;stroke:#334155;stroke-width:1}
+      .chipText{fill:#e5e7eb;font-size:16px;font-weight:700}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="858" height="258" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="858" height="258" rx="28" stroke="url(#stroke)" stroke-width="2" opacity="0.8"/>
+  <rect x="1" y="1" width="858" height="258" rx="28" fill="url(#glow)"/>
+
+  <text x="38" y="48" class="mono label">TECH STACK</text>
+  <text x="38" y="86" class="sans title">tools I actually ship with</text>
+
+  <g transform="translate(38 112)">
+    <rect class="section" x="0" y="0" width="250" height="104" rx="20"/>
+    <text x="20" y="30" class="mono label">LANGUAGES</text>
+    <rect class="chip" x="20" y="48" width="96" height="34" rx="17"/><text class="sans chipText" x="39" y="70">TypeScript</text>
+    <rect class="chip" x="126" y="48" width="78" height="34" rx="17"/><text class="sans chipText" x="150" y="70">Python</text>
+  </g>
+
+  <g transform="translate(306 112)">
+    <rect class="section" x="0" y="0" width="250" height="104" rx="20"/>
+    <text x="20" y="30" class="mono label">FRAMEWORKS</text>
+    <rect class="chip" x="20" y="48" width="82" height="34" rx="17"/><text class="sans chipText" x="41" y="70">Next.js</text>
+    <rect class="chip" x="112" y="48" width="70" height="34" rx="17"/><text class="sans chipText" x="132" y="70">React</text>
+    <rect class="chip" x="20" y="86" width="74" height="0" rx="0" opacity="0"/>
+  </g>
+
+  <g transform="translate(574 112)">
+    <rect class="section" x="0" y="0" width="248" height="104" rx="20"/>
+    <text x="20" y="30" class="mono label">DATA + CLOUD</text>
+    <rect class="chip" x="20" y="48" width="88" height="34" rx="17"/><text class="sans chipText" x="40" y="70">Supabase</text>
+    <rect class="chip" x="118" y="48" width="70" height="34" rx="17"/><text class="sans chipText" x="139" y="70">AWS</text>
+    <rect class="chip" x="20" y="86" width="96" height="0" rx="0" opacity="0"/>
+  </g>
+
+  <g transform="translate(38 222)">
+    <rect class="chip" x="0" y="0" width="112" height="30" rx="15"/><text class="sans chipText" x="21" y="20" font-size="14">PostgreSQL</text>
+    <rect class="chip" x="124" y="0" width="44" height="30" rx="15"/><text class="sans chipText" x="139" y="20" font-size="14">R2</text>
+    <rect class="chip" x="180" y="0" width="72" height="30" rx="15"/><text class="sans chipText" x="199" y="20" font-size="14">Vercel</text>
+    <rect class="chip" x="264" y="0" width="72" height="30" rx="15"/><text class="sans chipText" x="284" y="20" font-size="14">Node.js</text>
+    <text x="360" y="20" class="mono" fill="#64748b" font-size="14">frontend · backend · storage · deployment</text>
+  </g>
+</svg>

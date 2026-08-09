@@ -1,0 +1,52 @@
+<svg width="860" height="170" viewBox="0 0 860 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <style>
+      .mono{font-family:JetBrains Mono,Consolas,monospace}
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .box{fill:#0b1220;stroke:#263244;stroke-width:1}
+      .num{fill:#f8fafc;font-size:38px;font-weight:900;letter-spacing:-1px}
+      .label{fill:#94a3b8;font-size:14px;letter-spacing:1.3px;font-weight:800}
+      .small{fill:#cbd5e1;font-size:17px;font-weight:700}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="858" height="168" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="858" height="168" rx="28" stroke="url(#accent)" stroke-width="2" opacity="0.78"/>
+
+  <text x="38" y="42" class="mono label">REPOSITORIES + COMMITS</text>
+  <text x="38" y="76" class="sans" fill="#ffffff" font-size="28" font-weight="850" letter-spacing="-0.7">proof of building, not just planning</text>
+
+  <g transform="translate(38 100)">
+    <rect class="box" x="0" y="0" width="154" height="48" rx="18"/>
+    <text x="22" y="35" class="sans num">9</text>
+    <text x="72" y="22" class="mono label">PUBLIC</text>
+    <text x="72" y="38" class="mono label">REPOS</text>
+  </g>
+
+  <g transform="translate(212 100)">
+    <rect class="box" x="0" y="0" width="174" height="48" rx="18"/>
+    <text x="22" y="35" class="sans num">88</text>
+    <text x="88" y="22" class="mono label">PUBLIC</text>
+    <text x="88" y="38" class="mono label">COMMITS</text>
+  </g>
+
+  <g transform="translate(416 100)">
+    <rect class="box" x="0" y="0" width="188" height="48" rx="18"/>
+    <text x="22" y="32" class="sans small">Inbox Unite</text>
+  </g>
+
+  <g transform="translate(622 100)">
+    <rect class="box" x="0" y="0" width="200" height="48" rx="18"/>
+    <text x="22" y="32" class="sans small">Contestic next</text>
+  </g>
+</svg>

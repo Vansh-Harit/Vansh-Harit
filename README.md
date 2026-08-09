@@ -7,6 +7,7 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/vansh-harit-5590512b2"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://vanshharit.vercel.app/"><img src="https://img.shields.io/badge/portfolio-0B0F19?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="mailto:vanshharit@gmail.com"><img src="https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </div>
 
 <br />
@@ -18,17 +19,13 @@
 <br />
 
 <div align="center">
-  <img src="assets/stack-card.svg" alt="Tech stack" width="92%" />
+  <img src="assets/tech-stack.svg" alt="Tech stack" width="92%" />
 </div>
 
 <br />
 
 <div align="center">
-
-```txt
-CSE 2028 · product-minded engineer · systems over hype · shipping > talking
-```
-
+  <img src="assets/repo-commits.svg" alt="Repositories and commits" width="92%" />
 </div>
 
 <br />
