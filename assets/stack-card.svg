@@ -1,42 +1,50 @@
-<svg width="1180" height="220" viewBox="0 0 1180 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1180" height="260" viewBox="0 0 1180 260" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="card" x1="0" y1="0" x2="1180" y2="220" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1180" y2="260" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617"/>
-      <stop offset="0.52" stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#0b1120"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
     <linearGradient id="stroke" x1="0" y1="0" x2="1180" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22d3ee"/>
-      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="0.48" stop-color="#8b5cf6"/>
       <stop offset="1" stop-color="#34d399"/>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="16" result="blur"/><feBlend in="SourceGraphic" in2="blur"/></filter>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 42) scale(260 190)">
+      <stop stop-color="#22d3ee" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
     <style>
       .mono{font-family:JetBrains Mono,Consolas,monospace}
       .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
-      .pill{fill:#0b1220;stroke:#334155;stroke-width:1.2}
-      .label{fill:#e2e8f0;font-size:23px;font-weight:650}
+      .chip{fill:#0f172a;stroke:#334155;stroke-width:1.1}
+      .chipText{fill:#e5e7eb;font-size:21px;font-weight:680}
       .muted{fill:#94a3b8;font-size:20px}
+      .tiny{fill:#64748b;font-size:16px;letter-spacing:1.5px}
     </style>
   </defs>
 
-  <rect x="2" y="2" width="1176" height="216" rx="30" fill="url(#card)"/>
-  <rect x="2" y="2" width="1176" height="216" rx="30" stroke="url(#stroke)" stroke-width="2" opacity="0.75"/>
-  <rect x="50" y="44" width="8" height="132" rx="4" fill="url(#stroke)" filter="url(#glow)"/>
+  <rect x="2" y="2" width="1176" height="256" rx="34" fill="url(#bg)"/>
+  <rect x="2" y="2" width="1176" height="256" rx="34" stroke="url(#stroke)" stroke-width="2" opacity="0.85"/>
+  <rect x="2" y="2" width="1176" height="256" rx="34" fill="url(#glow)"/>
 
-  <text x="88" y="70" class="mono" fill="#22d3ee" font-size="20">STACK</text>
-  <text x="88" y="108" class="sans" fill="#ffffff" font-size="34" font-weight="800" letter-spacing="-0.7">clean tools for real products</text>
-  <text x="88" y="145" class="mono muted">frontend · backend · data · automation</text>
+  <circle cx="86" cy="82" r="44" fill="#22d3ee" opacity="0.10" filter="url(#soft)"/>
+  <rect x="58" y="56" width="64" height="64" rx="20" fill="#08111f" stroke="#1e293b"/>
+  <path d="M76 91 L90 74 L104 91 M90 74 V107" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(560 50)">
-    <rect class="pill" x="0" y="0" width="126" height="46" rx="23"/><text class="sans label" x="28" y="31">Next.js</text>
-    <rect class="pill" x="142" y="0" width="154" height="46" rx="23"/><text class="sans label" x="168" y="31">TypeScript</text>
-    <rect class="pill" x="312" y="0" width="122" height="46" rx="23"/><text class="sans label" x="340" y="31">Python</text>
-    <rect class="pill" x="450" y="0" width="160" height="46" rx="23"/><text class="sans label" x="476" y="31">PostgreSQL</text>
+  <text x="150" y="72" class="mono tiny">MY TOOLKIT</text>
+  <text x="150" y="113" class="sans" fill="#ffffff" font-size="38" font-weight="850" letter-spacing="-0.8">build fast. ship clean. scale carefully.</text>
+  <text x="150" y="150" class="mono muted">frontend · backend · database · storage · deployment</text>
 
-    <rect class="pill" x="0" y="66" width="132" height="46" rx="23"/><text class="sans label" x="28" y="97">Supabase</text>
-    <rect class="pill" x="148" y="66" width="104" height="46" rx="23"/><text class="sans label" x="179" y="97">React</text>
-    <rect class="pill" x="268" y="66" width="128" height="46" rx="23"/><text class="sans label" x="296" y="97">Node.js</text>
-    <rect class="pill" x="412" y="66" width="198" height="46" rx="23"/><text class="sans label" x="438" y="97">Automation</text>
+  <g transform="translate(150 184)">
+    <rect class="chip" x="0" y="0" width="116" height="42" rx="21"/><text class="sans chipText" x="24" y="28">Next.js</text>
+    <rect class="chip" x="130" y="0" width="142" height="42" rx="21"/><text class="sans chipText" x="154" y="28">TypeScript</text>
+    <rect class="chip" x="286" y="0" width="108" height="42" rx="21"/><text class="sans chipText" x="315" y="28">React</text>
+    <rect class="chip" x="408" y="0" width="112" height="42" rx="21"/><text class="sans chipText" x="434" y="28">Python</text>
+    <rect class="chip" x="534" y="0" width="150" height="42" rx="21"/><text class="sans chipText" x="558" y="28">PostgreSQL</text>
+    <rect class="chip" x="698" y="0" width="130" height="42" rx="21"/><text class="sans chipText" x="722" y="28">Supabase</text>
+    <rect class="chip" x="842" y="0" width="104" height="42" rx="21"/><text class="sans chipText" x="872" y="28">R2</text>
+    <rect class="chip" x="960" y="0" width="96" height="42" rx="21"/><text class="sans chipText" x="987" y="28">Vercel</text>
   </g>
 </svg>
