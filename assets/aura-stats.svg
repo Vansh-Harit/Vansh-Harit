@@ -13,7 +13,7 @@
   <path id="beamPath" d="M22 2 H838 Q858 2 858 22 V178 Q858 198 838 198 H22 Q2 198 2 178 V22 Q2 2 22 2 Z" fill="none"/>
   <rect x="2" y="2" width="856" height="196" rx="19" fill="none" stroke="#1f2937"/>
   <rect x="2" y="2" width="856" height="196" rx="19" fill="none" stroke="url(#border)" stroke-width="1.5" opacity=".32"/>
-  <g filter="url(#glow)"><ellipse rx="92" ry="4.8" fill="url(#beam)"><animateMotion dur="5.8s" repeatCount="indefinite" rotate="auto"><mpath href="#beamPath"/></animateMotion></ellipse></g>
+  <g filter="url(#glow)"><ellipse rx="96" ry="4.8" fill="url(#beam)"><animateMotion dur="6s" repeatCount="indefinite" rotate="auto"><mpath href="#beamPath"/></animateMotion></ellipse></g>
   <line class="sep" x1="286" y1="42" x2="286" y2="158"/><line class="sep" x1="573" y1="42" x2="573" y2="158"/>
   <g text-anchor="middle" class="mono"><text x="143" y="91" class="num" fill="#a78bfa">9</text><text x="143" y="122" class="label">REPOS</text><text x="430" y="91" class="num" fill="#60a5fa">1</text><text x="430" y="122" class="label">STAR</text><text x="716" y="91" class="num" fill="#fbbf24">88</text><text x="716" y="122" class="label">COMMITS</text></g>
 </svg>

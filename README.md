@@ -33,7 +33,7 @@
 <br />
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/vansh-harit-5590512b2"><img src="assets/btn-linkedin.svg" width="120" height="44" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/vansh-harit-5590512b2"><img src="assets/btn-linkedin.svg" width="154" height="44" alt="LinkedIn" /></a>
   <a href="https://vanshharit.vercel.app/"><img src="assets/btn-portfolio.svg" width="154" height="44" alt="Portfolio" /></a>
-  <a href="mailto:vanshharit@gmail.com"><img src="assets/btn-email.svg" width="116" height="44" alt="Email" /></a>
+  <a href="mailto:vanshharit@gmail.com"><img src="assets/btn-email.svg" width="154" height="44" alt="Email" /></a>
 </div>
