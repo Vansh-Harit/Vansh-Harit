@@ -5,7 +5,7 @@
     <radialGradient id="b2" cx="53%" cy="82%" r="48%"><stop stop-color="#c026d3" stop-opacity=".35"/><stop offset="1" stop-opacity="0"/></radialGradient>
     <radialGradient id="b3" cx="78%" cy="78%" r="42%"><stop stop-color="#06b6d4" stop-opacity=".38"/><stop offset="1" stop-opacity="0"/></radialGradient>
     <style>
-      .mono{font-family:JetBrains Mono,Consolas,monospace}.tiny{font-size:12px;letter-spacing:6px;fill:#8b95a7}.cat{font-size:13px;letter-spacing:2px;font-weight:800}.chip{fill:rgba(15,23,42,.82);stroke:#334155;stroke-width:1}.txt{fill:#e5e7eb;font-size:14px;font-weight:700}.icon{font-size:13px;font-weight:900}.pink{fill:#fda4af}.blue{fill:#93c5fd}.red{fill:#fb7185}@keyframes spin{to{stroke-dashoffset:-620}}.spin{stroke-dasharray:100 190;animation:spin 9s linear infinite}
+      .mono{font-family:JetBrains Mono,Consolas,monospace}.tiny{font-size:12px;letter-spacing:6px;fill:#8b95a7}.cat{font-size:13px;letter-spacing:2px;font-weight:800}.chip{fill:rgba(15,23,42,.82);stroke:#334155;stroke-width:1}.txt{fill:#e5e7eb;font-size:14px;font-weight:700}.icon{font-size:13px;font-weight:900}.pink{fill:#fda4af}.blue{fill:#93c5fd}.red{fill:#fb7185}@keyframes orbit{to{stroke-dashoffset:-100}}.orbit{pathLength:100;stroke-dasharray:24 76;animation:orbit 6.2s linear infinite;stroke-linecap:round}
     </style>
   </defs>
   <rect x="1" y="1" width="858" height="258" rx="20" fill="#05060b"/>
@@ -13,7 +13,8 @@
   <rect x="1" y="1" width="858" height="258" rx="20" fill="url(#b2)"/>
   <rect x="1" y="1" width="858" height="258" rx="20" fill="url(#b3)"/>
   <rect x="2" y="2" width="856" height="256" rx="19" fill="none" stroke="#1f2937"/>
-  <rect class="spin" x="2" y="2" width="856" height="256" rx="19" fill="none" stroke="url(#border)" stroke-width="2" opacity=".85"/>
+  <rect x="2" y="2" width="856" height="256" rx="19" fill="none" stroke="url(#border)" stroke-width="1.4" opacity=".34"/>
+  <rect class="orbit" x="2" y="2" width="856" height="256" rx="19" fill="none" stroke="url(#border)" stroke-width="3.2" opacity=".95"/>
   <text x="38" y="42" class="mono tiny">TECH STACK</text>
   <g class="mono">
     <text x="38" y="79" class="cat pink">LANGUAGES</text>
