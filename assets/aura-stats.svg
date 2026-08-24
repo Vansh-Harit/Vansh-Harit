@@ -13,5 +13,5 @@
   <rect x="2" y="2" width="856" height="196" rx="19" fill="none" stroke="#1f2937"/>
   <rect x="2" y="2" width="856" height="196" rx="19" fill="none" stroke="url(#border)" stroke-width="1.5" opacity=".32"/>
   <line class="sep" x1="286" y1="42" x2="286" y2="158"/><line class="sep" x1="573" y1="42" x2="573" y2="158"/>
-  <g text-anchor="middle" class="mono"><text x="143" y="91" class="num" fill="#a78bfa">9</text><text x="143" y="122" class="label">REPOS</text><text x="430" y="91" class="num" fill="#60a5fa">1</text><text x="430" y="122" class="label">STAR</text><text x="716" y="91" class="num" fill="#fbbf24">36</text><text x="716" y="122" class="label">COMMITS</text></g>
+  <g text-anchor="middle" class="mono"><text x="143" y="91" class="num" fill="#a78bfa">9</text><text x="143" y="122" class="label">REPOS</text><text x="430" y="91" class="num" fill="#60a5fa">1</text><text x="430" y="122" class="label">STAR</text><text x="716" y="91" class="num" fill="#fbbf24">58</text><text x="716" y="122" class="label">COMMITS</text></g>
 </svg>
