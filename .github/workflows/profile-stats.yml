@@ -1,19 +1,16 @@
-name: Update profile stats
+name: Update profile stats (disabled)
 
 on:
-  schedule:
-    # 09:17 Asia/Kolkata (03:47 UTC)
-    - cron: "17 3 * * *"
   workflow_dispatch:
-  push:
-    paths-ignore:
-      - "assets/aura-stats.svg"
 
 permissions:
   contents: write
 
 jobs:
   update-stats:
+    # Disabled because this workflow counts only public authored commits,
+    # not the authenticated rolling contribution total used by the profile.
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
